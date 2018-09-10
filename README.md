@@ -118,18 +118,18 @@ Each experiment was tested with 20 members, 20 genes, and a phase range of 100. 
 
 <table>
 <tr>
-<td><img src = "techniquea.png"></td>
-<td><img src = "techniqueb.png"></td>
+<td><img src ="./readme-images/techniquea.png"></td>
+<td><img src ="./readme-images/techniqueb.png"></td>
 </tr>
 
 <tr>
-<td><img src = "techniquea0.png"></td>
-<td><img src = "techniqueb0.png"></td>
+<td><img src ="./readme-images/techniquea0.png"></td>
+<td><img src ="./readme-images/techniqueb0.png"></td>
 </tr>
 
 <tr>
-<td><img src = "techniquea1.png"></td>
-<td><img src = "techniqueb1.png"></td>
+<td><img src ="./readme-images/techniquea1.png"></td>
+<td><img src ="./readme-images/techniqueb1.png"></td>
 </tr>
 
 </table>
