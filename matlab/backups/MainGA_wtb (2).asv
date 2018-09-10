@@ -1,0 +1,55 @@
+%% Main program
+%% Initial Setup
+clc; clear; close all;
+diary OFF; force_delete('diary'); diary ON; 
+savefig = @(num) ... save figure
+    saveas(figure(num), sprintf('fig%d', num), 'bmp'); 
+fitAxis = @(data) ... axis-fit for data to plot
+    axis( [1, length(data) min(data) max(data)] );
+printl = @(varargin) ...
+    display(arrayfun(@(i) sprintf('%c',i), cell2mat(varargin)));
+report = @(arg1,arg2,arg3,arg4) printl(...
+    sprintf('\n############################################################',0),...
+    sprintf('\nEXECUTION FINISHED...', 0), ...
+    sprintf('\n\tNumber of generations: %d', arg1), ...
+    sprintf('\n\tNumber of function evaluations: %d', arg2), ...
+    sprintf('\n\tBest function value: %g', arg3),...
+    sprintf('\n\tTotal execution time: %.5f seconds', arg4),...
+    sprintf('\n\n[PRESS ANY KEY TO CONTINUE]\n\n'));
+getReport = @(results) ...
+    report([], [], results{2}, toc);
+
+%% Initial values
+no_members = 36;
+no_gens = 50;
+stall_lim = 5;
+no_genes = 20;
+phase_range = 100;
+pad_size = 2^13;
+
+%% fitness function
+getScore = @(members, technique) ...
+    fitnesses(members, no_genes, phase_range, pad_size, technique);
+
+%% Run experiment
+test = @(technique) ... set experiment & control values
+   testGA(no_members, no_gens, stall_lim, technique, no_genes, phase_range, pad_size);
+
+%% Get Polynomial phase; technique0 - with symmetry
+tic
+[best0,fval0, exitflag0, output0, population0, scores0, results0] = test(0);
+p0t0 = getScore(population0, 0);
+p0t1 = getScore(population0, 1);
+
+
+%% Get Polynomial phase; technique1 - without symmetry
+tic
+[best1,fval1, exitflag1, output1, population1, scores1, results1] = test(0);
+
+p0t0 = getScore(population1, 0);
+p0t1 = getScore(population1, 1);
+
+getReport(results0);
+getReport(results1);
+
+diary OFF;

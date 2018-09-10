@@ -1,0 +1,33 @@
+clear;clc;close all;
+
+
+
+mfiles = dir('*.m');
+n = length(mfiles);
+
+[path, curfile, ext] = fileparts(mfilename('fullpath'));
+curfile = strcat(curfile, '.m');
+
+for j = 1:n
+    fname = mfiles(j).name;    
+    
+    if strmatch(fname, curfile);
+        display('match!');
+    else
+        fnames{j} = fname;
+    end
+end
+        
+
+display('Publishing!')
+for j = 1:length(fnames);
+    try
+        fname = fnames{j};
+        display(fname);
+        %publish(fname, 'doc');
+    catch exception
+    end
+    close all
+end
+
+organize_workspace()

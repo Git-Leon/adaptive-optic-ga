@@ -1,0 +1,11 @@
+%% evalutes the fitness of specified members
+% returns 1 by n matrix with grades of each member
+	% where n represents the number of members
+function grades = fitnesses(members, pad_size, min_grade, technique)    
+    no_members = size(members,2);    
+    grades = zeros(1, no_members);
+    
+    for j = 1:no_members        
+        grades(j) = fitness(members(:,j), pad_size, min_grade, recursion_limit, 0);
+    end
+end

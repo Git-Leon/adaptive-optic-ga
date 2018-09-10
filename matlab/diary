@@ -1,0 +1,69 @@
+
+fcn_getScores = 
+
+    @(members,technique)fitnesses(members,pad_size,min_grade,technique,5)
+
+
+                               Best           Mean      Stall
+Generation      f-count        f(x)           f(x)    Generations
+    1            40           9.079           13.69        0
+    2            60           8.485           12.84        0
+    3            80           4.821           11.98        0
+    4           100           7.401           12.79        1
+    5           120           8.937            12.7        2
+    6           140           9.078           12.67        3
+    7           160           7.122           13.06        0
+    8           180           8.225            11.9        1
+    9           200           7.702           11.36        0
+   10           220           8.836           12.05        1
+   11           240           6.789           11.44        0
+   12           260           7.016           12.03        1
+   13           280           8.067           11.25        2
+   14           300           8.012           11.42        0
+   15           320           5.714            11.8        0
+   16           340           8.154           12.26        1
+   17           360           8.805           12.18        2
+   18           380           8.068           10.88        0
+   19           400           8.516           12.14        1
+   20           420            8.49           12.44        0
+Optimization terminated: maximum number of generations exceeded.
+
+                               Best           Mean      Stall
+Generation      f-count        f(x)           f(x)    Generations
+    1            40            7.12           12.65        0
+    2            60           7.135           12.76        1
+    3            80           6.659           12.29        0
+    4           100           7.116            11.1        1
+    5           120           10.31           12.94        2
+    6           140           7.401           13.36        0
+    7           160           6.889           13.01        0
+    8           180           5.129           12.31        0
+    9           200           7.823            12.8        1
+   10           220           6.461           11.88        0
+   11           240           6.208           12.25        0
+   12           260           8.913           13.12        1
+   13           280           6.594           12.34        0
+   14           300           5.674           11.92        0
+   15           320           9.612           13.19        1
+   16           340           8.598           12.86        0
+   17           360           6.991           12.07        0
+   18           380           5.744           12.44        0
+   19           400           8.351           12.35        1
+   20           420           7.699           12.82        0
+Optimization terminated: maximum number of generations exceeded.
+
+report1 =
+
+
+-----------EXECUTION FINISHED-----------
+	Best score:		7.69875
+	Time elapsed:	21.39852 seconds
+
+
+report0 =
+
+
+-----------EXECUTION FINISHED-----------
+	Best score:		8.48973
+	Time elapsed:	19.01935 seconds
+

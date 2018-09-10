@@ -1,0 +1,48 @@
+chromosome; individuals;
+member
+	look like
+	what is
+	why no_members
+	representation
+	what is in vector
+
+
+how many generations are ran?
+
+
+what is being optimized
+how many parameters
+
+
+what do profiles represent?
+
+
+
+ecoding; vector chromosomes
+
+parameters for ga
+
+
+possible stopping criteria
+	change across generations plateaus
+
+
+know all default ga values
+
+kind of mutation
+	selection
+
+stall gen limit - number of generations without increased performance before stopping the evolutionary loop
+
+
+come up with experimental set up
+
+
+num of gens
+how many times
+
+
+what measures to report
+minimum fitness
+max fitness
+best fitness

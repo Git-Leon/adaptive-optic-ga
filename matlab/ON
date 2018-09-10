@@ -1,0 +1,155 @@
+Program running...
+	Iteration: 1
+	Percentage completed: 0.0333%
+	Time elapsed: 0.00000 seconds
+	Estimated time remaining: 0.00000 minutes
+
+
+
+>> 
+>> test
+error: Invalid call to test.  Correct usage is:
+
+ -- Command:  test NAME
+ -- Command:  test NAME quiet|normal|verbose
+ -- Function File:  test ("NAME", "quiet|normal|verbose", FID)
+ -- Function File:  test ("NAME", "quiet|normal|verbose", FNAME)
+ -- Function File: SUCCESS = test (...)
+ -- Function File: [N, NMAX, NXFAIL, NSKIP] = test (...)
+ -- Function File: [CODE, IDX] = test ("NAME", "grabdemo")
+ -- Function File:  test ([], "explain", FID)
+ -- Function File:  test ([], "explain", FNAME)
+
+
+
+Additional help for built-in functions and operators is
+available in the online version of the manual.  Use the command
+'doc <topic>' to search the manual index.
+
+Help and information about Octave is also available on the WWW
+at http://www.octave.org and via the help@octave.org
+mailing list.
+>> MainGA_noToolbox
+Program running...
+	Iteration: 1
+	Percentage completed: 0.0333%
+	Time elapsed: 0.00000 seconds
+	Estimated time remaining: 0.00000 minutes
+
+
+Program running...
+	Iteration: 2
+	Percentage completed: 0.0667%
+	Time elapsed: 0.63863 seconds
+	Estimated time remaining: 15.95516 minutes
+
+
+Program running...
+	Iteration: 3
+	Percentage completed: 0.1000%
+	Time elapsed: 1.24645 seconds
+	Estimated time remaining: 20.75343 minutes
+
+
+Program running...
+	Iteration: 4
+	Percentage completed: 0.1333%
+	Time elapsed: 1.85276 seconds
+	Estimated time remaining: 23.12861 minutes
+
+
+Program running...
+	Iteration: 5
+	Percentage completed: 0.1667%
+	Time elapsed: 2.46597 seconds
+	Estimated time remaining: 24.61855 minutes
+
+
+Program running...
+	Iteration: 6
+	Percentage completed: 0.2000%
+	Time elapsed: 3.07266 seconds
+	Estimated time remaining: 25.56264 minutes
+
+
+Program running...
+	Iteration: 7
+	Percentage completed: 0.2333%
+	Time elapsed: 3.68524 seconds
+	Estimated time remaining: 26.26170 minutes
+
+
+Program running...
+	Iteration: 8
+	Percentage completed: 0.2667%
+	Time elapsed: 4.28802 seconds
+	Estimated time remaining: 26.72865 minutes
+
+
+Program running...
+	Iteration: 9
+	Percentage completed: 0.3000%
+	Time elapsed: 4.88864 seconds
+	Estimated time remaining: 27.07766 minutes
+
+
+Program running...
+	Iteration: 10
+	Percentage completed: 0.3333%
+	Time elapsed: 5.49116 seconds
+	Estimated time remaining: 27.36429 minutes
+
+
+error: toc called before timer set
+error: called from
+    MainGA_noToolbox> at line -1 column -1
+    MainGA_noToolbox at line 50 column 10
+error: evaluating argument list element number 2
+error: called from
+    MainGA_noToolbox> at line -1 column -1
+    MainGA_noToolbox at line 50 column 10
+error: evaluating argument list element number 4
+error: called from
+    MainGA_noToolbox> at line -1 column -1
+    MainGA_noToolbox at line 50 column 10
+>> MainGA_noToolbox
+error: toc called before timer set
+error: called from
+    MainGA_noToolbox> at line -1 column -1
+    MainGA_noToolbox at line 50 column 10
+error: evaluating argument list element number 2
+error: called from
+    MainGA_noToolbox> at line -1 column -1
+    MainGA_noToolbox at line 50 column 10
+error: evaluating argument list element number 4
+error: called from
+    MainGA_noToolbox> at line -1 column -1
+    MainGA_noToolbox at line 50 column 10
+>> 
+>> 
+>> 
+>> 
+>> 
+>> 
+>> MainGA_noToolbox
+error: toc called before timer set
+error: called from
+    MainGA_noToolbox> at line -1 column -1
+    MainGA_noToolbox at line 50 column 10
+error: evaluating argument list element number 2
+error: called from
+    MainGA_noToolbox> at line -1 column -1
+    MainGA_noToolbox at line 50 column 10
+error: evaluating argument list element number 4
+error: called from
+    MainGA_noToolbox> at line -1 column -1
+    MainGA_noToolbox at line 50 column 10
+>> clear
+>> clc
+>> clc
+>> clear all
+>> MainGA_noToolbox
+error: toc called before timer set
+error: called from
+    MainGA_noToolbox> at line -1 column -1
+    MainGA_noToolbox at line 50 column 10

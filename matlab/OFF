@@ -1,0 +1,10 @@
+warning: delete: no such file: diary
+warning: called from
+    delete at line 47 column 9
+    force_delete at line 15 column 5
+    MainGA_noToolbox at line 2 column 13
+warning: delete: no such file: diary
+warning: called from
+    delete at line 47 column 9
+    force_delete at line 15 column 5
+    MainGA_noToolbox at line 2 column 13

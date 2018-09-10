@@ -1,0 +1,6 @@
+function [state,options,optchanged] = outfun(options,state,flag)
+display('hello world');
+display(x)
+state,options,optchanged
+flag = -1; % return -1 if function has been called
+end

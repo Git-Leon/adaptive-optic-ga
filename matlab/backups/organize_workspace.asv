@@ -1,0 +1,18 @@
+function organize_workspace()
+    % move autosave files to back up directory
+    mv('*.asv','./backups')
+    mvs('./images', '*.jpg', '*.jpeg', '*.png', '*.bmp', '*.fig');
+end
+
+function mv(name, directory) % wrap each move in a try block
+	try
+        movefile(name, directory)
+	catch exception
+    end
+end
+
+function files = mvs(directory, varargin)
+    for j = 1:nargin-1
+        mv(varargin{j}, directory)
+    end
+end
